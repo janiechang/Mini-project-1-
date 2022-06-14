@@ -24,6 +24,8 @@ class ViewController: UIViewController {
     @IBAction func button(_ sender: UIButton) {       bonusImage.isHidden = false
         bonusFact.isHidden = false
     }
+    @IBAction func nextPage(_ sender: UIButton) {
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
